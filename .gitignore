@@ -1,0 +1,64 @@
+# Project exclude paths
+/.gradle/
+/onul-batch-server/build/
+/onul-batch-server/build/classes/java/main/
+/onul-batch-server/build/classes/java/test/
+/commons/build/
+/commons/build/classes/java/main/
+/infrastructure/es-client/build/
+/infrastructure/es-client/build/classes/java/main/
+/infrastructure/es-entity/build/
+/infrastructure/es-entity/build/classes/java/main/
+/infrastructure/kakaotalk-sender/build/
+/infrastructure/kakaotalk-sender/build/classes/java/main/
+
+# Files
+http-client.private.env.json
+.DS_Store
+.swp
+*.iml
+.gradle
+.idea
+.sonar
+.classpath
+.settings
+.metadata
+*.log
+*.gz
+npm-debug.log*
+pids
+*.pid
+*.seed
+.cache
+.lock-wscript
+.npm
+.node_repl_history
+.vscode
+package-lock.json
+yarn.lock
+.project
+eslint-report.xml
+*.hprof
+
+
+# JS Directories
+build/Release
+coverage
+dist
+
+#Java Directories
+classes
+out
+build
+bin
+.sts4-cache
+
+# Project Directories
+*/src/main/generated
+*/src/querydsl/
+
+# Front-End Directories
+
+# ETC Directories
+dump.rdb
+

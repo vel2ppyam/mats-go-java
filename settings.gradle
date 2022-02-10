@@ -1,0 +1,6 @@
+rootProject.name = 'mats-go-java'
+include 'api-server'
+include 'admin-server'
+include 'common'
+include 'mats-go-service'
+
