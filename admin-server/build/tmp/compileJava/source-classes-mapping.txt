@@ -1,2 +1,0 @@
-com/vel2ppyam/matsgo/AdminServerApplication.java
- com.vel2ppyam.matsgo.AdminServerApplication
