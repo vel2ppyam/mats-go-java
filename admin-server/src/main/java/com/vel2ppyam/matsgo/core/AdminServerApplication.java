@@ -1,11 +1,11 @@
-package com.vel2ppyam.matsgo;
+package com.vel2ppyam.matsgo.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiServerApplication {
+public class AdminServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ApiServerApplication.class, args);
+        SpringApplication.run(AdminServerApplication.class, args);
     }
 }

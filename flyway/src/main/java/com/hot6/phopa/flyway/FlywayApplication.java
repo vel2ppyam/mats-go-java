@@ -1,11 +1,13 @@
-package com.vel2ppyam.matsgo;
+package com.hot6.phopa.flyway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AdminServerApplication {
+public class FlywayApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(AdminServerApplication.class, args);
+        SpringApplication.run(FlywayApplication.class, args);
     }
+
 }
