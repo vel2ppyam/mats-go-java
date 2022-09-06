@@ -2,14 +2,20 @@ plugins {
     id 'java'
 }
 
+group 'org.example'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation project(':core')
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+
+    testImplementation project(':admin-server')
+    testImplementation project(':core')
 }
 
 test {
