@@ -1,7 +1,7 @@
-package com.vel2ppyam.matsgo.core.domain.map.client;
+package com.vel2ppyam.matsgo.core.common.kakao.map.client;
 
 import com.vel2ppyam.matsgo.core.common.config.KaKaoFeignConfiguration;
-import com.vel2ppyam.matsgo.core.domain.map.model.dto.KakaoMapResponse;
+import com.vel2ppyam.matsgo.core.common.kakao.map.model.dto.KakaoMapResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

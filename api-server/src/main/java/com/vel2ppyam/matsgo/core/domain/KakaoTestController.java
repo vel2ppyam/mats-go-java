@@ -1,7 +1,7 @@
 package com.vel2ppyam.matsgo.core.domain;
 
-import com.vel2ppyam.matsgo.core.domain.map.model.dto.KakaoMapResponse;
-import com.vel2ppyam.matsgo.core.domain.map.service.KakaoMapService;
+import com.vel2ppyam.matsgo.core.common.kakao.map.model.dto.KakaoMapResponse;
+import com.vel2ppyam.matsgo.core.common.kakao.map.service.KakaoMapService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

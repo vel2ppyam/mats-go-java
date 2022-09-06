@@ -1,4 +1,4 @@
-package com.vel2ppyam.matsgo.core.domain.map.model.dto;
+package com.vel2ppyam.matsgo.core.common.kakao.map.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

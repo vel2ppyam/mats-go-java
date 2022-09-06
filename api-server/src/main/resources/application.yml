@@ -69,3 +69,10 @@ kakao:
     api-key: KakaoAK a923dc7dec4381a0f88109db44f594b6
     host: https://dapi.kakao.com
     path.keyword-search: /v2/local/search/keyword.json
+
+
+## Twitter Api Setting
+twitter:
+  api-key:
+  host: https://api.twitter.com
+  path.tweet-search: /1.1/search/tweets.json
