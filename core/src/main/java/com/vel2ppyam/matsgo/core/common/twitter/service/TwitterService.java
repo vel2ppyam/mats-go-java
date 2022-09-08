@@ -12,6 +12,6 @@ public class TwitterService {
     private final TwitterFeignClient twitterFeignClient;
 
     public TweetSearchResponse tweetSearch(){
-        return twitterFeignClient.tweetSearch();
+        return twitterFeignClient.tweetSearch("nasa","popular");
     }
 }

@@ -73,6 +73,10 @@ kakao:
 
 ## Twitter Api Setting
 twitter:
-  api-key:
+  api-key: WUHBWXKgfvpjk4droeJuvd32W
+  secret-key: G7HffMv4dMKzxrhz0lP2U8OPKJPP89rC9eBfqenD1qhs2BEl7a
+  bearer-token: AAAAAAAAAAAAAAAAAAAAABpegwEAAAAAZQe6Na5vVE10wHpCVuIafSNgB5g%3DrftKdUOjxP7U8jvfJclVr05xgX3R10VIoYRblLl6fcp6Wyy1rX
+  access-token: 1311985166781308928-aX2ScVAUgGiVEN72a44QFsFfPfnVwx
+  secret-token: cskDabk3b2GxbRjcheblByGXamm7pp3UKrRBTl05MBzdT
   host: https://api.twitter.com
   path.tweet-search: /1.1/search/tweets.json
