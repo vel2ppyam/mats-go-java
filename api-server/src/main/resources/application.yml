@@ -79,4 +79,4 @@ twitter:
   access-token: 1311985166781308928-aX2ScVAUgGiVEN72a44QFsFfPfnVwx
   secret-token: cskDabk3b2GxbRjcheblByGXamm7pp3UKrRBTl05MBzdT
   host: https://api.twitter.com
-  path.tweet-search: /1.1/search/tweets.json
+  path.tweet-search: /2/tweets/search/recent

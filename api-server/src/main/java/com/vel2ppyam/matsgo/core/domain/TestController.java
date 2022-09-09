@@ -20,7 +20,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TestController {
     private final KakaoMapService kakaoMapService;
-
     private final TwitterService twitterService;
     @GetMapping("/kakao")
     public List<KakaoMapResponse.KeyWordSearchResponse> getMap(
@@ -34,7 +33,8 @@ public class TestController {
 
     @GetMapping("/twitter")
     public TweetSearchResponse searchTweet(
+            @RequestParam String query
     ) {
-        return twitterService.tweetSearch();
+        return twitterService.tweetSearch(query);
     }
 }

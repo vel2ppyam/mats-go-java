@@ -1,17 +1,24 @@
 package com.vel2ppyam.matsgo.core.common.twitter.service;
 
 import com.vel2ppyam.matsgo.core.common.twitter.client.TwitterFeignClient;
-import com.vel2ppyam.matsgo.core.common.twitter.model.dto.TwitterResponse;
+import com.vel2ppyam.matsgo.core.common.twitter.helper.TwitterHeaderHelper;
 import com.vel2ppyam.matsgo.core.common.twitter.model.dto.TwitterResponse.TweetSearchResponse;
+import com.vel2ppyam.matsgo.core.common.twitter.model.dto.TwitterUrl;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
 public class TwitterService {
     private final TwitterFeignClient twitterFeignClient;
 
-    public TweetSearchResponse tweetSearch(){
-        return twitterFeignClient.tweetSearch("nasa","popular");
+    public TweetSearchResponse tweetSearch(String query){
+        Map<String, String> requestParams = new HashMap<>();
+        requestParams.put("query", query);
+        return twitterFeignClient.tweetSearch(query);
     }
 }
