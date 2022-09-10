@@ -1,7 +1,7 @@
-package com.vel2ppyam.matsgo.core.domain.map.service;
+package com.vel2ppyam.matsgo.core.common.kakao.map.service;
 
-import com.vel2ppyam.matsgo.core.domain.map.client.KakaoFeignClient;
-import com.vel2ppyam.matsgo.core.domain.map.model.dto.KakaoMapResponse.KeyWordSearchResponse;
+import com.vel2ppyam.matsgo.core.common.kakao.map.client.KakaoFeignClient;
+import com.vel2ppyam.matsgo.core.common.kakao.map.model.dto.KakaoMapResponse.KeyWordSearchResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -69,3 +69,14 @@ kakao:
     api-key: KakaoAK a923dc7dec4381a0f88109db44f594b6
     host: https://dapi.kakao.com
     path.keyword-search: /v2/local/search/keyword.json
+
+
+## Twitter Api Setting
+twitter:
+  api-key: WUHBWXKgfvpjk4droeJuvd32W
+  secret-key: G7HffMv4dMKzxrhz0lP2U8OPKJPP89rC9eBfqenD1qhs2BEl7a
+  bearer-token: AAAAAAAAAAAAAAAAAAAAABpegwEAAAAAZQe6Na5vVE10wHpCVuIafSNgB5g%3DrftKdUOjxP7U8jvfJclVr05xgX3R10VIoYRblLl6fcp6Wyy1rX
+  access-token: 1311985166781308928-aX2ScVAUgGiVEN72a44QFsFfPfnVwx
+  secret-token: cskDabk3b2GxbRjcheblByGXamm7pp3UKrRBTl05MBzdT
+  host: https://api.twitter.com
+  path.tweet-search: /2/tweets/search/recent
